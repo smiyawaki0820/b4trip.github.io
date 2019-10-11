@@ -10,6 +10,10 @@ body {
   color: #b8b8b8;
 }
 
+iframe {
+  position: relative;
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -20,6 +24,32 @@ a {
 a:hover {
   text-decoration: none;
   color: #FDA403;
+}
+
+span.tim {
+  color: #FDA403;    /* 文字色指定 */
+}
+
+ul.class {
+  box-shadow :0px 0px 3px silver;
+  border: solid 1px whitesmoke;
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+  background: #fafafa;
+}
+
+ul.class li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none!important;
+}
+
+ul.class li:before {
+  font-family: "Font Awesome";
+  content: "\f0da";
+  position: absolute;
+  left : 1em; /*左端からのアイコンまで*/
+  color: gray; /*アイコン色*/
 }
 
 h1, h2, h3, h4, h5,
@@ -970,3 +1000,5 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+
