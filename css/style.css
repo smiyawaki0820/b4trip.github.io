@@ -26,8 +26,23 @@ a:hover {
   color: #FDA403;
 }
 
+.left {
+  margin-right: auto;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.right {
+  margin-left: auto;
+}
+
 span.tim {
   color: #FDA403;    /* 文字色指定 */
+}
+
+h4.hoge {
+  color: rgb(245, 112, 3);
 }
 
 ul.class {
